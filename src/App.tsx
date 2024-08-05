@@ -1,19 +1,7 @@
-import { useGSAP } from "@gsap/react";
-import { animateMe } from "./Animaiton";
+import { AnimateDocs } from "./AnimateDocs/AnimateDocs";
 
 function App() {
-  useGSAP(animateMe, []);
-
-  return (
-    <div>
-      <div className="request">
-        <p>Request</p>
-      </div>
-      <div className="response">
-        <p>Response</p>
-      </div>
-    </div>
-  );
+  return <AnimateDocs />;
 }
 
 export default App;
