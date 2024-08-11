@@ -1,7 +1,11 @@
-.request {
-  margin-top: 100;
+.entity {
+  padding: 10px;
+  border: 1px solid white;
+  margin: 50px;
+  background: black;
+  text-align: center;
 }
 
-.response {
-  padding: 10px;
+#user {
+  z-index: 1000 important!;
 }
